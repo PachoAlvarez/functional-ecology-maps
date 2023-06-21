@@ -1,9 +1,3 @@
-# --- Objetos necesarios para las funciones "Nombres_metricas_X", antes de 
-#     su primer uso.
-
-
-
-
 Nombres_metricas <- function(year, metClass, statGroup="Tend") {
     
     df_NomMetPhe     <- read.csv(paste0(dir_P, dir_pB, "Met_PhenoC_groups.csv"))
